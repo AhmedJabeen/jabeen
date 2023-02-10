@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Development</title>
+   
+    <link rel="stylesheet" href="stylecontact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png" >
+
+</head>
+<body>
+
+    <div class="nav">
+        <nav>
+          
+            <div class="navlogo">
+            <a href="Profile_Company.html">
+                <img src="logo.1.png" alt="Hot Beans" width="104" height="87">
+            </div>
+            
+            
+             <div class="navlinks">
+                <ul>
+                    <a href="Profile_Company.html">Home</a>
+                    <a href="Courses.html">Courses</a>
+                    <a href="Qualifications&Requirement.html">Apply</a>
+                    <a href="ContactUs.html">Contact Us</a>
+                    <a href="OurTeam.html">Our Team</a>
+                </ul>
+            </div>
+          
+            
+
+
+                <div class="menu">
+                    <label for="chk1">
+                        <i class="fa fa-bars"></i>
+                    </label>
+                </div>
+
+        </nav>
+        
+        <div><img src="intro.jpg" alt="test" style="width:200;height:200; ">
+    </div>
+
+
+    <div class="container">
+        <form name="form1" action="" onsubmit="return validateEntry()">
+
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="" placeholder="Your first name here...">
+    
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="" placeholder="Your last name here...">
+
+        <label for="mes">Email address:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your email address...">
+    
+    
+    
+    
+        <label for="subject">Your Message</label>
+        <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+    
+        <input class="button" type="submit" value="Submit">
+      
+      </form>
+    </div>
+        
+        <script>
+            function validateEntry() {
+            //var fn = document.getElementById('fname').value;
+            var fn = document.forms["form1"]["fname"].value;
+            //alert(fn);
+            if (fn == null || fn == "") { alert("Please enter first name"); }
+                        
+            var ln = document.forms["form1"]["lname"].value;
+            //alert(ln);
+            if (ln == null || ln == "") { alert("Please enter last name"); }
+            
+        }
+        </script>
+        
+        
+        
+        
+
+    <div class="footercolor">
+      <img src="dcd7ca.png" style="height: 200px; width: 100%;" >
+  </div>
+
+  <div class="coursesfooter">
+
+      <div class="footerlogo">           
+          <img src="FL.png"  alt="HotBeans">
+      </div>
+
+      <div class="f1l">
+          <img src="hfr.png" alt="Horizontal Lines">
+      </div>
+
+      <div class="footerlinks" >
+
+          <div class="link1">
+              <a href="Profile_Company.html">Home</a>              
+          </div>
+
+          <div class="link2">
+              <a href="Courses.html">Courses</a>
+          </div>
+
+          <div class="link3">
+              <a href="Qualifications&Requirement.html">Apply</a>
+          </div>
+
+          <div class="link4">
+              <a href="ContactUs.html">Contact Us</a>
+          </div>
+
+          <div class="link5">
+              <a href="OurTeam.html">Our Team</a>  
+          </div>
+
+          <div class="fb">
+              <a href="https://www.facebook.com"> <img style="height: 60px; width: 90px;" src="fb.png" alt="Facebook"></a>
+          </div>
+          
+          <div class="linkedin">                
+              <a href="https://www.linkedin.com/"> <img style="height: 53px; width: 53px;" src="linkedin2.png" alt="Linkedin"></a>
+          </div>
+
+          <div class="pinterest">
+              <a href="https://www.pinterest.co.uk/"> <img style="height: 70px; width: 70px;" src="pinterest.png" alt="Pinterest"></a>
+          </div>
+
+          <div class="copyright">
+              <p> HotBeans by M.A.M. Jabeen © 2023</p>
+          </div>    
+
+          <div class="email">
+            <a href="mailto:moaz031126@gmail.com" >
+             <img src="email.png" alt="Email us" style="height: 52px; width: 51;" >  
+          </div>
+
+
+
+      </div>
+
+
+
+  </div>
+    
+</body>
+    
+</html>
